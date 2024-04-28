@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 3rem;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.flex-input{
+    display: flex;
+    justify-content: center;
+}
+#city {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#getdata{
+    background-color: antiquewhite;
+    width: auto;
+}
+#getdata:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(46, 46, 255, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    text-align: left;
+    /* display: none; */
+}
+
+#feels_like {
+    font-size: xx-large;
+}
+
+#city_temp2 {
+    font-size: xxx-large;
+}
+
+.col {
+    font-size: x-large;
+}
+
+span {
+    color: royalblue;
+    font-size: xx-large;
+    size: 3em;
+}
